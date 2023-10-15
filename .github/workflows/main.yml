@@ -33,7 +33,7 @@ jobs:
         run: mvn validate
 
       - name: Code Build
-        run: mvn build
+        run: mvn compile
 
       - name: Code Test
         run: mvn test
